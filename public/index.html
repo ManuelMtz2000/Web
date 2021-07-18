@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500&display=swap" rel="stylesheet">
+    <title>Manuel Martínez</title>
+</head>
+<body class="bg-BgPurple" id="bodyPart">
+    <header class="sticky top-0 z-50 bg-BgPurple">
+        <!--Start Navbar-->
+        <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-5">
+            <div class="flex items-center">
+              <a href="#"><img src="img/2.png" id="white-logo" class="w-20" alt="White Logo"></a>
+            </div>
+            <div class="block lg:hidden">
+                <button id="btnMenu" type="button" class="text-white text-5xl">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </button>
+            </div>
+            <div id='menu' class="w-full block flex-grow hidden text-center lg:flex lg:items-center lg:w-auto">
+              <div class="text-sm lg:flex-grow text-gray-400 font-montserrat">
+                <a href="#inicio" class="menu-el block mt-4 p-2 rounded lg:inline-block lg:mt-0 lg:mx-10 hover:text-white hover:bg-purple-900 transition ease-out duration-500">
+                    Inicio
+                </a>
+                <a href="#about" class="menu-el block mt-4 p-2 rounded lg:inline-block lg:mt-0 lg:mx-10 hover:text-white hover:bg-purple-900 transition ease-out duration-500">
+                    Sobre mi
+                </a>
+                <a href="#portfolio" class="menu-el block mt-4 p-2 rounded lg:inline-block lg:mt-0 lg:mx-10 hover:text-white hover:bg-purple-900 transition ease-out duration-500">
+                    Portafolio
+                </a>
+                <a href="#contact" class="menu-el block mt-4 p-2 rounded lg:inline-block lg:mt-0 lg:mx-10 hover:text-white hover:bg-purple-900 transition ease-out duration-500">
+                    Contacto
+                </a>
+              </div>
+            </div>
+        </nav>
+        <!--End Navbar-->
+    </header>
+    <section id="inicio">
+        <div class="container mx-auto text-white p-7 bg-green-400 bg-opacity-50 rounded-lg">
+            <h1 class="text-center font-montserrat font-bold text-5xl tittleAnime">Bienvenid@ a mi sitio web</h1>
+            <img src="img/1.png" alt="Main Logo" id="main-logo" class="mx-auto mt-0 w-44">
+            <h2 class="text-center text-xl px-5 font-montserrat descripAnime" id="sym">
+                Desarrollo de sitios web apropiados para ti o tu negocio. 
+                <span>Simple</span> y <span>moderno</span>, la Web ideal para tu producto.
+            </h2>
+            <div class="flex justify-center p-2">
+                <a href="#contact" class="bg-blue-600 rounded-md p-3 m-2 hover:bg-red-400 transition ease-out duration-500 cursor-pointer">Contacta ya!</a>
+            </div>
+            <div class="flex justify-center p-1">
+                <img src="img/1.svg" class="w-7 mx-3" alt="design">
+                <img src="img/2.svg" class="w-7 mx-3" alt="design">
+                <img src="img/3.svg" class="w-7 mx-3" alt="design">
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffff" fill-opacity="1" d="M0,192L26.7,176C53.3,160,107,128,160,138.7C213.3,149,267,203,320,224C373.3,245,427,235,480,197.3C533.3,160,587,96,640,101.3C693.3,107,747,181,800,213.3C853.3,245,907,235,960,197.3C1013.3,160,1067,96,1120,106.7C1173.3,117,1227,203,1280,234.7C1333.3,267,1387,245,1413,234.7L1440,224L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path>
+        </svg>
+    </section>
+    <section class="bg-white scroll-element js-scroll fade-in" id="about">
+        <div class="flex justify-center">
+            <div class="bg-red-600 p-3 rounded-full w-10 h-10 mt-3 mx-2"></div>
+            <div class="bg-green-600 p-3 rounded-full w-12 h-12 m-2"></div>
+            <div class="text-center text-3xl m-1 md:m-3 font-montserrat font-bold">Información sobre mi</div>
+            <div class="bg-green-600 p-3 rounded-full w-12 h-12 m-2"></div>
+            <div class="bg-red-600 p-3 rounded-full w-10 h-10 mt-3 mx-2"></div>
+        </div>
+        <div class="container p-12">
+            <div class="lg:grid lg:grid-rows-3 lg:grid-flow-col mx-2">
+                <div class="row-span-3 bg-blue-600 rounded-lg container shadow-2xl p-5 w-full mx-2 lg:mx-auto">
+                    <h1 class="font-montserrat font-bold text-white text-3xl">Hello World!</h1>
+                    <hr>
+                    <img src="img/yo.jpg" class="mx-auto mt-3 rounded-full h-24 w-24" alt="Me">
+                    <p class="font-montserrat text-white mt-2 whitespace-normal">Estudiante de Informatica, apasionado por la ingenieria y la tecnologia. Mi enfoque principal es la programación, siendo una des actividades favoritas.</p>
+                </div>
+                <div class="col-span-2 row-span-3 bg-red-600 rounded-lg container shadow-2xl p-5 lg:w-10/12 m-2">
+                    <h1 class="font-montserrat font-bold text-white text-3xl text-center">Tecnologias</h1>
+                    <div class="flex mt-2 justify-between">
+                        <button class="hover:bg-red-400 rounded p-2 transition ease-out duration-500" onclick="mostrar('java');">
+                            <img src="img/Java-white.svg" class="w-14 mx-5" alt="Java">
+                        </button>
+                        <button class="hover:bg-red-400 rounded p-2 transition ease-out duration-500" onclick="mostrar('js');">
+                            <img src="img/JS-white.svg" class="w-14 mx-5" alt="Javascript">
+                        </button>
+                        <button class="hover:bg-red-400 rounded p-2 transition ease-out duration-500" onclick="mostrar('php');">
+                            <img src="img/PHP-white.svg" class="w-14 mx-5" alt="Php">
+                        </button>
+                        <button class="hover:bg-red-400 rounded p-2 transition ease-out duration-500" onclick="mostrar('laravel');">
+                            <img src="img/Laravel-white.svg" class="w-14 mx-5" alt="Laravel">
+                        </button>
+                    </div>
+                    <div class="bg-red-700 rounded-md container w-full">
+                        <div class="m-3 p-2" id="language">
+                            <div class="text-white text-3xl font-montserrat whitespace-normal font-bold" id="tittleTar">Java</div>
+                            <div class="text-white font-montserrat whitespace-normal" id="descTar">Java es un potente lenguaje de programación dominante en equipos de sobremesa, teléfonos android e incluso en la Web, además de ser uno de mis lenguajes preferidos en el ámbito de escritorio.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-yellow-400 rounded-lg p-2 mx-2 mt-9 shadow-2xl container justify-items-center w-full">
+                <h2 class="text-center text-white text-3xl font-montserrat font-bold p-3">Redes</h2>
+                <div class="lg:grid lg:grid-cols-3 lg:grid-flow-col p-1">
+                    <div class="p-3 bg-yellow-500 rounded-xl">
+                        <h2 class="text-xl text-center text-white font-montserrat font-bold p-1">Playlist en Spotify</h3>
+                        <iframe class="rounded-md mx-auto w-full h-96" src="https://open.spotify.com/embed/playlist/3pSHMkUkX3orzewHhMeLva" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="p-3 bg-yellow-500 rounded-xl mx-2">
+                        <h2 class="text-xl text-center text-white font-montserrat font-bold p-1">Twitter</h2>
+                        <div class="twitterborder">
+                            <a class="twitter-timeline" data-width="300" data-height="380" data-theme="dark" href="https://twitter.com/Manu_Dev25?ref_src=twsrc%5Etfw">Tweets by Manu_Dev25</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                    </div>
+                    <div class="p-3 bg-yellow-500 rounded-xl mx-2">
+                        <h2 class="text-xl text-center text-white font-montserrat font-bold p-1">Github</h2>
+                        <a href="https://github.com/ManuelMtz2000">
+                            <div class="lg:text-5xl xl:text-7xl bg-black rounded-xl p-7 text-white text-7xl flex justify-between shadow-xl transform motion-safe:hover:scale-110">
+                                Github
+                                <img src="img/GitHub-Mark-Light-64px.png" alt="Github">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#6D51A8" fill-opacity="1" d="M0,32L21.8,26.7C43.6,21,87,11,131,42.7C174.5,75,218,149,262,160C305.5,171,349,117,393,122.7C436.4,128,480,192,524,224C567.3,256,611,256,655,229.3C698.2,203,742,149,785,106.7C829.1,64,873,32,916,58.7C960,85,1004,171,1047,176C1090.9,181,1135,107,1178,85.3C1221.8,64,1265,96,1309,90.7C1352.7,85,1396,43,1418,21.3L1440,0L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path>
+        </svg>
+    </section>
+    <section class="bg-BgPurple p-12 scroll-element js-scroll fade-in" id="portfolio">
+        <div class="flex justify-center p-2">
+            <div class="bg-white w-5 h-5 p-3 mt-1 mx-2 transform rotate-45"></div>
+            <div class="text-white mx-2 text-3xl font-montserrat font-bold">Portafolio</div>
+            <div class="bg-white w-5 h-5 p-3 mt-1 mx-2 transform rotate-45"></div>
+        </div>
+        <div class="bg-purple-900 rounded-xl container h-96 p-2 grid grid-rows-3">
+            <div class="md:grid md:grid-cols-3 h-full">
+                <div class="p-3 m-2 bg-white rounded">
+                    <img src="img/port1.png" alt="Portafolio 1" class="h-28 sm:h-48 md:h-auto lg:h-44 mx-auto rounded-lg border-solid border-4 border-purple-500">
+                    <div class="pt-3">
+                        <h1 class="font-montserrat font-bold">Sistema de venta (Laravel)</h1>
+                        <p class="pt-1">
+                            Proyecto escolar hecho con Laravel y Bootstrap 4, con un sistema de login para cuentas locales.
+                        </p>
+                    </div>
+                    <div class="pt-2">
+                        <a href="https://github.com/ManuelMtz2000/ProyectoSBD" class="">
+                            <div class="p-1 w-full bg-blue-600 rounded-lg text-white text-center">Ver aqui</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-2 bg-black scroll-element js-scroll fade-in" id="contact">
+        <div class="p-3 m-3">
+            <h1 class="text-white text-center text-3xl font-montserrat">¿Necesitas algo? Contactame :)</h1>
+            <div class="md:grid md:grid-cols-2 text-white font-montserrat mt-7">
+                <a href="https://twitter.com/Manu_Dev25">
+                    <div class="w-full lg:flex lg:items-center p-2">
+                        <img src="img/Logo white.svg" alt="Twitter logo" class="m-5 w-28 p-3 md:mx-auto">
+                        Sigueme en Twitter, es mi red social preferedia y es garantizado que interactue por ahí un poco, ¡Click aquí!
+                    </div>
+                </a>
+                <div class="w-full lg:flex lg:items-center p-2">
+                    <img src="img/Instagram logo.svg" alt="Instagram logo" class="m-5 w-28 h-24 p-3 md:mx-auto">
+                    Sigueme en Instagram, no suelo subir mucho en esta red social, pero cualquier contacto por este medio es bienvenido.
+                    @Manuel_dev25
+                </div>
+            </div>
+            <div class="md:w-80 text-white font-montserrat md:text-center md:mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-envelope-fill p-3 w-28 mx-5 md:mx-auto" viewBox="0 0 16 16">
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                </svg>
+                Envie un correo electronico si es mucho más comodo para usted, tratare de ser rápido para contestar:
+                <strong>Manuelmtzt025@gmail.com</strong>
+            </div>
+        </div>
+    </section>
+    <footer class="p-2 bg-black">
+        <div class="conatiner text-white flex justify-center">
+            <img src="img/Logo only white.svg" alt="Logo only white" class="w-20">
+            <p class="mx-2 mt-6">© 2021</p>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
