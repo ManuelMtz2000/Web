@@ -67,9 +67,9 @@ let mostrar = (language) => {
         el ámbito de escritorio.`;
     } else if(language === 'laravel'){
         tittle = 'Laravel';
-        desc = `Laravel es uno de los frameworks más utitlizados en el ambito de Php, con una
-        filosofía de evitar una mezcla de código en los proyectos. Es uno de los frameworks populares
-        para el desarrollo de aplicaciones web.`;
+        desc = `Laravel es uno de los frameworks más utilizados en el ámbito de Php, con una 
+        filosofía de evitar una mezcla de código en los proyectos. Es uno de los frameworks 
+        populares para el desarrollo de aplicaciones web.`;
     } else if(language === 'php'){
         tittle = 'Php';
         desc = `Php es otro de los lenguajes para desarrollo Web más populares, con una alta 
